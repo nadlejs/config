@@ -40,4 +40,4 @@ jobs:
       - name: Build
         run: npx nadle build
 
-      - run: pnpm dlx pkg-pr-new publish --bin --comment=update --compact './packages/prettier-config'
+      - run: pnpm dlx pkg-pr-new publish --bin --comment=update './packages/prettier-config'
