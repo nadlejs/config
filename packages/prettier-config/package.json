@@ -11,10 +11,10 @@
 	"devDependencies": {
 		"prettier": "^3.6.2"
 	},
-  "peerDependencies": {
-    "prettier": "^3.6.2"
-  },
-  "engines": {
+	"peerDependencies": {
+		"prettier": "^3.6.2"
+	},
+	"engines": {
 		"node": ">=20"
 	},
 	"author": {
