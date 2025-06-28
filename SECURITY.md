@@ -8,4 +8,4 @@
 
 ## Reporting a Vulnerability
 
-Send an email to
+Send an email to namhoangle.dev@gmail.com

@@ -1,0 +1,38 @@
+{
+	"name": "@nadle/prettier-config",
+	"version": "0.0.1",
+	"description": "Shared Prettier config for Nadle projects",
+	"license": "MIT",
+	"type": "module",
+	"files": [
+		"index.js"
+	],
+	"exports": "./index.js",
+	"devDependencies": {
+		"prettier": "^3.6.2"
+	},
+  "peerDependencies": {
+    "prettier": "^3.6.2"
+  },
+  "engines": {
+		"node": ">=20"
+	},
+	"author": {
+		"name": "Nam Hoang Le",
+		"email": "namhoangle.dev@gmail.com",
+		"url": "https://github.com/nam-hle"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nadlejs/config.git",
+		"directory": "packages/prettier-config"
+	},
+	"keywords": [
+		"nadle",
+		"prettier",
+		"config",
+		"shared-config"
+	],
+	"homepage": "https://nadle.dev",
+	"bugs": "https://github.com/nadlejs/config/issues"
+}

@@ -3,10 +3,10 @@
 	"bump-minor-pre-major": true,
 	"bump-patch-for-minor-pre-major": true,
 	"pull-request-title-pattern": "chore: release v${version}",
-	"include-component-in-tag": false,
+	"include-component-in-tag": true,
 
 	"packages": {
-		"packages/my-package": {
+		"packages/prettier-config": {
 			"release-type": "node",
 			"changelog-sections": [
 				{ "type": "feat", "section": "Features" },
