@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+.idea
+
+# dependencies
+**/node_modules
+
+# testing
+/coverage
+
+# build output
+**/build
+**/dist
+**/lib
+__temp__
+.docusaurus
+.vercel
+
+# misc
+.DS_Store
+
+# typescript
+*.tsbuildinfo
