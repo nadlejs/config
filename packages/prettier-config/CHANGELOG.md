@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.3](https://github.com/nadlejs/config/compare/prettier-config-v0.0.2...prettier-config-v0.0.3) (2025-06-29)
+
+
+### Miscellaneous
+
+* Remove prettier from devDependencies in package.json ([f9b2cc6](https://github.com/nadlejs/config/commit/f9b2cc64e532a022a8eaf1a5adb277cbd11bbb21))
+
 ## [0.0.2](https://github.com/nadlejs/config/compare/prettier-config-v0.0.1...prettier-config-v0.0.2) (2025-06-28)
 
 
