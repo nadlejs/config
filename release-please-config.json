@@ -4,21 +4,23 @@
 	"bump-patch-for-minor-pre-major": true,
 	"pull-request-title-pattern": "chore: release ${component} v${version}",
 	"include-component-in-tag": true,
+	"tag-separator": "/",
+	"changelog-sections": [
+		{ "type": "feat", "section": "Features" },
+		{ "type": "fix", "section": "Bug Fixes" },
+		{ "type": "docs", "section": "Documentation" },
+		{ "type": "perf", "section": "Performance" },
+		{ "type": "chore", "section": "Miscellaneous" },
+		{ "type": "refactor", "section": "Internal" },
+		{ "type": "test", "section": "Internal" }
+	],
 
 	"packages": {
 		"packages/prettier-config": {
-			"release-type": "node",
-			"changelog-sections": [
-				{ "type": "feat", "section": "Features" },
-				{ "type": "fix", "section": "Bug Fixes" },
-				{ "type": "docs", "section": "Documentation" },
-				{ "type": "perf", "section": "Performance" },
-				{ "type": "refactor", "section": "Internal" },
-				{ "type": "test", "section": "Internal" },
-				{ "type": "chore", "section": "Miscellaneous" },
-				{ "type": "build", "section": "Miscellaneous" },
-				{ "type": "ci", "section": "Miscellaneous" }
-			]
+			"release-type": "node"
+		},
+		"packages/ts-config": {
+			"release-type": "node"
 		}
 	},
 	"plugins": [{ "type": "sentence-case" }]

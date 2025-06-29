@@ -3,7 +3,7 @@ name: Release
 on:
   push:
     tags:
-      - "prettier-config-v*"
+      - "*/v*"
 
 permissions:
   contents: write

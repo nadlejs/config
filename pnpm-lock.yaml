@@ -69,6 +69,8 @@ importers:
         specifier: ^3.6.2
         version: 3.6.2
 
+  packages/ts-config: {}
+
 packages:
 
   '@cspell/cspell-bundled-dicts@9.1.2':
