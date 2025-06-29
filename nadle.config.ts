@@ -1,6 +1,6 @@
 import { tasks, ExecTask, PnpmTask, DeleteTask } from "nadle";
 
-const baseEslintArgs = ["-r", "exec", "eslint", ".", "--quiet"];
+const baseEslintArgs = ["--filter", "!*ts-config", "-r", "exec", "eslint", ".", "--quiet"];
 
 tasks.register("clean", DeleteTask, { paths: ["**/lib/**", "**/build/**"] }).config({
 	group: "Development",
