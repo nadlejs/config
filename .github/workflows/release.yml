@@ -10,7 +10,6 @@ permissions:
 
 jobs:
   release:
-    if: false
     runs-on: ubuntu-latest
     permissions:
       contents: read
