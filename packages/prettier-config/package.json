@@ -8,9 +8,6 @@
 		"index.js"
 	],
 	"exports": "./index.js",
-	"devDependencies": {
-		"prettier": "^3.6.2"
-	},
 	"peerDependencies": {
 		"prettier": "^3.6.2"
 	},
