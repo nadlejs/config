@@ -64,7 +64,7 @@ importers:
         version: 8.35.0(eslint@9.30.0(jiti@2.4.2))(typescript@5.8.3)
 
   packages/prettier-config:
-    devDependencies:
+    dependencies:
       prettier:
         specifier: ^3.6.2
         version: 3.6.2
