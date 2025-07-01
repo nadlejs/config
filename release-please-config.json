@@ -21,6 +21,9 @@
 		},
 		"packages/ts-config": {
 			"release-type": "node"
+		},
+		"packages/eslint-config": {
+			"release-type": "node"
 		}
 	},
 	"plugins": [{ "type": "sentence-case" }]
