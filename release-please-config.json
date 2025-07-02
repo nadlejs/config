@@ -13,6 +13,7 @@
 		{ "type": "refactor", "section": "Internal" },
 		{ "type": "test", "section": "Internal" }
 	],
+	"plugins": [{ "type": "sentence-case" }],
 
 	"packages": {
 		"packages/prettier-config": {
@@ -24,6 +25,5 @@
 		"packages/eslint-config": {
 			"release-type": "node"
 		}
-	},
-	"plugins": [{ "type": "sentence-case" }]
+	}
 }
