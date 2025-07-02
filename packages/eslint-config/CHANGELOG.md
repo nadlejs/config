@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/nadlejs/config/compare/eslint-config/v1.0.0...eslint-config/v1.0.1) (2025-07-02)
+
+
+### Miscellaneous
+
+* Integrate latest config ([#11](https://github.com/nadlejs/config/issues/11)) ([6fbf298](https://github.com/nadlejs/config/commit/6fbf2982484b57e809c2ad3d384ff9ea51031bd8))
+
 ## 1.0.0 (2025-07-01)
 
 
