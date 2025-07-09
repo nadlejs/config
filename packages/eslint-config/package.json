@@ -1,6 +1,6 @@
 {
 	"name": "@nadle/eslint-config",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Shared Eslint config for Nadle projects",
 	"license": "MIT",
 	"type": "module",
