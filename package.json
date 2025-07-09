@@ -10,8 +10,8 @@
 		"@nadle/eslint-config": "^1.0.0",
 		"@nadle/prettier-config": "^0.0.5",
 		"@nadle/ts-config": "^0.0.2",
-		"cspell": "^9.1.2",
-		"eslint": "^9.29.0",
+		"cspell": "^9.1.3",
+		"eslint": "^9.30.1",
 		"husky": "^9.1.7",
 		"jiti": "^2.4.2",
 		"lint-staged": "^16.1.2",
@@ -19,7 +19,7 @@
 		"prettier": "^3.6.2",
 		"rimraf": "^6.0.1",
 		"typescript": "^5.8.2",
-		"typescript-eslint": "^8.35.0"
+		"typescript-eslint": "^8.35.1"
 	},
 	"engines": {
 		"node": ">=20"
