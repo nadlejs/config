@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/nadlejs/config/compare/eslint-config/v1.0.2...eslint-config/v1.0.3) (2025-07-18)
+
+
+### Miscellaneous
+
+* **deps:** Bump the minor-updates group with 4 updates ([#15](https://github.com/nadlejs/config/issues/15)) ([b283bcc](https://github.com/nadlejs/config/commit/b283bcc8a14da69f26026b242b5dd2236095ae6c))
+
 ## [1.0.2](https://github.com/nadlejs/config/compare/eslint-config/v1.0.1...eslint-config/v1.0.2) (2025-07-09)
 
 
